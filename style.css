@@ -1,0 +1,123 @@
+* {
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('obraz.jpg');
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+
+    text-shadow: 4px 4px 2px rgba(3, 3, 3, 0.6);
+
+}
+
+h1:hover{
+    color: red;
+    
+}
+
+header {
+
+    padding: 1%;
+    padding-bottom: 2%;
+    font-size: 300%;
+    
+}
+
+#main {
+    background-color: black;
+    
+}
+
+h2 {
+    font-size: 300%;
+    background-color: black;
+    margin: 0% 5% 0% 5%;
+}
+
+nav {
+    opacity: 80%;
+    background-color: black;
+    margin: 0% 5% 0% 5%;
+    font-size: 160%;
+    
+}
+
+#navi {
+    padding:0.5%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+
+}
+
+#navi li {
+    padding: 0.5%;
+    cursor: pointer;
+}
+
+#navi li:hover {
+    color: red;
+    background-color: rgb(109, 109, 109);
+   
+}
+
+#description {
+    opacity: 80%;
+    background-color: black;
+    font-size: 200%;
+    margin: 0% 5% 0% 5%;
+    padding: 3% 20% 5% 20%;
+    
+}
+
+.img {
+    position: absolute;
+    margin-bottom: 5%;
+    z-index: 1;
+    margin-left: 30%;
+}
+footer
+{   
+    position: fixed;
+    bottom: 0;
+    padding: 1% 1% 1% 1%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+
+.pole1 {
+    padding:2% 0% 2% 0%;
+    margin: 2% 0% 2% 0%;
+    background-color: lightgray;
+    color:black;
+    
+    
+}
